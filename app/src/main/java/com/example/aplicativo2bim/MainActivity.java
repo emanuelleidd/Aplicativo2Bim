@@ -32,5 +32,6 @@ public class MainActivity extends Activity {
         bundle.putString("signo",textView2.getText().toString());
         intent.putExtras(bundle);
         startActivity(intent);
+        //adicionei isso aqui
     }
 }
